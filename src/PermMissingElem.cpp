@@ -29,8 +29,12 @@ each element of array A is an integer within the range [1..(N + 1)].
 */
 
 int solution(vector<int> &A) {
-	long int arraySize = A.size();
-	long long int sum = 0;
+	/*
+	type | int | long | long long 
+	bits | 16  | 32   | 64
+	*/
+	long int arraySize = A.size(); // maximum N is 100,000, maximum log2(N) = 16.6
+	long long int sum = 0; // maximum sum is 5,005,150,051, maximum log2(sum) = 32.2
 
 	for (int i = 0; i < arraySize; i++) {
 		sum += A[i];
