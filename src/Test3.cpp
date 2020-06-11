@@ -1,4 +1,4 @@
-// Code Test - Beenox
+// Code Test
 
 /*
 Task 3
