@@ -16,7 +16,7 @@ class Solution {
         Arrays.sort(startPos);
         Arrays.sort(endPos);
 
-        boolean[] endpoints = new endpoints[2 * N];
+        boolean[] endpoints = new boolean[2 * N];
 
         int i = 0, j = 0, k = 0;
         while(i < N & j < N) {
